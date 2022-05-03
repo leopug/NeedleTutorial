@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RootViewController: UIViewController {
+final class RootViewController: UIViewController {
 
     private let detailBuilder: DetailBuilder
     private let detailButton = UIButton()

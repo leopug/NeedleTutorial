@@ -66,6 +66,7 @@
 		44D39FAB269771CB00B45436 /* Needle1Test */ = {
 			isa = PBXGroup;
 			children = (
+				A7B5752E28210D040024F81C /* Model */,
 				44D39FC6269776CC00B45436 /* Detail */,
 				44D39FC52697769F00B45436 /* Home */,
 				44D39FAC269771CB00B45436 /* AppDelegate.swift */,
@@ -83,7 +84,6 @@
 			children = (
 				44D39FB0269771CB00B45436 /* RootViewController.swift */,
 				44D39FC7269776DD00B45436 /* RootComponent.swift */,
-				44D39FCB2697791600B45436 /* HomeDataParseable.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -95,6 +95,14 @@
 				44D39FCD26977A3A00B45436 /* DetailViewController.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		A7B5752E28210D040024F81C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44D39FCB2697791600B45436 /* HomeDataParseable.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -18,9 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         
-        registerProviderFactories()
+        registerProviderFactories() // generated Needle Function
         
-        let rootComponent = RootComponent()
+        let rootComponent = RootComponent() // Our RootComponent
         window?.rootViewController = rootComponent.rootViewController
         
         window?.makeKeyAndVisible()

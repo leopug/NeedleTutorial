@@ -8,7 +8,7 @@
 import NeedleFoundation
 import UIKit
 
-class RootComponent: BootstrapComponent {
+final class RootComponent: BootstrapComponent {
     
     var userInfo: UserDataParseable {
         return shared { UserData() }

@@ -11,6 +11,6 @@ protocol UserDataParseable {
     var data: String? { get }
 }
 
-class UserData: UserDataParseable {
+final class UserData: UserDataParseable {
     var data: String? = "Ana Maia"
 }

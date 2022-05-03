@@ -18,7 +18,7 @@ protocol DetailBuilder {
     var detailViewController: UIViewController { get }
 }
 
-class DetailComponent: Component<DetailDependency>, DetailBuilder {
+final class DetailComponent: Component<DetailDependency>, DetailBuilder {
     
     var detailViewController: UIViewController {
         return DetailViewController(userData: dependency.userInfo)
