@@ -9,13 +9,8 @@ import Foundation
 
 protocol UserDataParseable {
     var data: String? { get }
-    func getAditionalUserData() -> String
 }
 
 class UserData: UserDataParseable {
-    func getAditionalUserData() -> String {
-        return "Other User Data"
-    }
-    
     var data: String? = "Ana Maia"
 }
