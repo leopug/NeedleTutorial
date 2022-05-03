@@ -9,10 +9,10 @@ import UIKit
 
 class RootViewController: UIViewController {
 
-    private let detailBuilder: DetailComponent
+    private let detailBuilder: DetailBuilder
     private let detailButton = UIButton()
     
-    init(detailBuilder: DetailComponent) {
+    init(detailBuilder: DetailBuilder) {
         self.detailBuilder = detailBuilder
         super.init(nibName: nil, bundle: nil)
     }
